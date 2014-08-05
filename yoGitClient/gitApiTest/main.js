@@ -21,7 +21,7 @@ app.on('ready', function() {
     mainWindow = new BrowserWindow({width: 300, height: 400});
 
     // and load the index.html of the app.
-    mainWindow.loadUrl('file://' + __dirname + '/yogit_main.html');
+    mainWindow.loadUrl('file://' + __dirname + '/yogit_sign.html');
 
     // Emitted when the window is closed.
     mainWindow.on('closed', function() {

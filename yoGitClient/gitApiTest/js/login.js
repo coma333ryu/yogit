@@ -6,8 +6,7 @@
  * Created by yoonjungboo on 2014. 7. 25..
  */
 var github = require('octonode');
-var jq = require('../lib/jquery-2.1.0.min.js');
-
+var jq = require('./lib/jquery-2.1.0.min.js');
 
 jq("#submitAc").bind("click", function() {
 
@@ -65,9 +64,9 @@ jq("#submitAc").bind("click", function() {
 //                console.log(ghlabel);
 //                console.log(ghgist);
 //                console.log(ghteam);
-//                console.log(__dirname);
+                console.log(__dirname);     // /Users/yoonjungboo/coma_dev/yoGit/yoGitClient/gitApiTest
 //                window.resizeTo(1500,1500);
-                location.href = "/Users/yoonjungboo/coma_dev/yoGit/yoGitClient/gitApiTest/index.html";
+//                location.href = "/Users/yoonjungboo/coma_dev/yoGit/yoGitClient/gitApiTest/index.html";
             }
         });
     }else{
